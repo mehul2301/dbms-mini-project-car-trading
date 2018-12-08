@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<head>
+    <script type="text/javascript">
+        function r(){
+            window.location="home.html";
+        }
+    </script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+ background-size:100% 100%;
+            background-repeat: no-repeat;}
+form {border: 3px solid #f1f1f1;}
+label{color:white;}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+	text-color:red;
+    background-color: cyan;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+    color:tomato;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+ screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+</style>
+<body background="pics\cars1.jpg">
+
+<h2 style="color:white; text-align:center;">SIGNUP</h2>
+
+<form action="http://localhost/Car-Trading--master/ui/first.html" method = "POST">
+  <div class="imgcontainer">
+    <img src="pics\cars2.jpg"  class="avatar">
+  </div>
+    <hr>
+    <label for="Name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+    
+	<label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="pwd" required>
+	
+	<label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+	
+	<label for="phone"><b>Phone No</b></label>
+    <input type="text" placeholder="Enter Phone no" name="phone" required>
+	
+	<label for="id"><b>ID</b></label>
+    <input type="text" placeholder="Enter ID" name="id" required>
+	
+	<label for="address"><b>Address</b></label>
+    <input type="text" placeholder="Enter Address" name="ads" required>	
+	
+	<label for="aadhar"><b>Aadhar</b></label>
+    <input type="text" placeholder="Enter Aadhar No" name="adno" required>
+	
+
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+    <p style="color:white;">By creating an account you agree to our Terms & Privacy.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn" onclick="http://localhost/Car-Trading--master/ui/first.html">Sign Up</button>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>
